@@ -44,7 +44,7 @@
     "heroku-client": "^3.1.0",
     "isolated-vm": "^5.0.3",
     "javascript-obfuscator": "^4.1.1",
-    "jimp": "^0.16.1",
+    "jimp": "^1.6.0",
     "megajs": "^1.3.3",
     "mime-types": "^2.1.35",
     "moment-timezone": "^0.5.45",
