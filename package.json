@@ -26,7 +26,7 @@
     "@dark-yasiya/yt-dl.js": "latest",
     "@vitalets/google-translate-api": "^9.2.1",
 
-    "@whiskeysockets/baileys": "npm:baileys-pro@0.0.5",
+    "@whiskeysockets/baileys":"npm:baileys-pro@latest",
 
     "adm-zip": "^0.5.16",
     "axios": "^1.13.2",
