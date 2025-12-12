@@ -1,16 +1,7 @@
-FROM node:lts-buster
-
-# Set working directory
+FROM node:20-bullseye
 WORKDIR /app
-
-# Copy all local files to container
+COPY package*.json ./
+RUN npm install --legacy-peer-deps && npm install -g pm2 qrcode-terminal
 COPY . .
-
-# Install dependencies
-RUN npm install && npm install -g pm2
-
-# Expose the port your app listens on
-EXPOSE 9090
-
-# Start the app
+EXPOSE 3000
 CMD ["npm", "start"]
